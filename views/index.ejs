@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %> Eco-Friendly Clothing to help save the planet</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <div class="module" id="module"></div>
+    
+    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Search
+    </button>
+    <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tops</a>
+            <a class="dropdown-item" href="#">Trousers</a>
+            <a class="dropdown-item" href="#">Skirts</a>
+            <a class="dropdown-item" href="#">Dresses</a>
+            <a class="dropdown-item" href="#">Shorts</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+  
+  
+  </head>
+
+
+  <body>
+ 
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %> for Eco-Friendly Clothing Brands</p>
+
+        <div id="header" class="nav-down">
+    
+          <div class="nav">
+            <ul class="nav-left">
+              <li>
+                <a id="btn-nav-panel" class="btn btn-icon btn-sm btn-simple visible-xs-inline-block" data-toggle="offcanvas" data-placement="left" data-target="#nav-panel" href="#">
+                  <i class="fa fa-bars"></i>
+    </a>          </li>
+              <li>
+                <a id="top-search-link" class="btn btn-icon btn-sm btn-simple visible-xs-inline-block" href="(to be completed)">
+                  <i class="fa fa-search"></i>
+    </a>          </li>
+              <li id="top-search-block" class="hidden-xs">
+                <form id="search-form" class="form-inline" action="(to be completed)" accept-charset="UTF-8" method="get">
+                  <div class="input-group input-group-sm">
+                    <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="text" class="form-control border-input search-typeahead tt-hint" data-autocomplete-suggestions="/en/autocomplete/suggestions" data-autocomplete-products="/en/autocomplete/products" data-autocomplete-shops="/en/autocomplete/shops" data-autocomplete-categories="/en/autocomplete/categories" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="text" name="q" id="q" class="form-control border-input search-typeahead tt-input" data-autocomplete-suggestions="/en/autocomplete/suggestions" data-autocomplete-products="/en/autocomplete/products" data-autocomplete-shops="/en/autocomplete/shops" data-autocomplete-categories="/en/autocomplete/categories" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Montserrat Alternates&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-categories"></div><div class="tt-dataset tt-dataset-shops"></div><div class="tt-dataset tt-dataset-products"></div></div></span>
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-sm btn-default">
+                        Search
+    </button>                </span>
+                  </div>
+
+                  <br>
+    </form>          
+</li>
+    </ul>
+    
+    <ul class="nav-right">
+            <li>
+                    <a id="btn-account" class="btn btn-icon btn-sm btn-default btn-simple" data-toggle="modal" data-target="#auth-modal" href="#account-or-signin-signup">
+                      <img src="https://d1dnjl0bsr27en.cloudfront.net/assets/icons/user-24x24-6f5e10428deda020cbc1d5f61392e7c352f33f3d70572bdad155c96a8893fce2.png" alt="User 24x24">
+                      <span class="hidden-xs" style="font-size: 12px;color: #333;">
+                         Account
+                      </span>
+    </a>            </li>
+              <li>
+                <a id="btn-favorites-panel" class="btn btn-icon btn-sm btn-default btn-simple" data-toggle="offcanvas" data-placement="right" data-target="#favorites-panel" href="#">
+                  <img src="https://d1dnjl0bsr27en.cloudfront.net/assets/icons/fav-outline-24x24-f5bdd7087c69401356c010bd51a09ea6b778e6f75c8ea88d2f946349e82db259.png" alt="Fav outline 24x24"> <span class="label notification-bubble"></span>
+    </a>          </li>
+              <li>
+                <a id="btn-cart-panel" class="btn btn-icon btn-sm btn-default btn-simple" data-toggle="offcanvas" data-placement="right" data-target="#cart-panel" href="#">
+                  <img src="https://d1dnjl0bsr27en.cloudfront.net/assets/icons/basket-24x24-57d955c5c93ac19a2c856822f1a81582297f4dd99585bb080a426a50c7ecac61.png" alt="Basket 24x24">
+                  <span class="label notification-bubble"></span>
+    </a>          </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+            <div class="card">
+              <img src="/images/11809099-1-pink.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tops</h5>
+               
+              </div>
+            </div>
+            <div class="card">
+              <img src="/images/12608825-1-multi.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Trousers</h5>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="/images/12957915-1-monoanimal.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Skirts</h5>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card-deck">
+                <div class="card">
+                  <img src="/images/11445725-1-sagegreen.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dresses</h5>   
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="/images/12240961-1-stripe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Shorts</h5>
+                </div>
+              </div>
+
+          <!--bottom part-->
+    
+          <div class="footer-facts-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-6">
+            <img class="image-responsive" src="https://d1dnjl0bsr27en.cloudfront.net/assets/welcome/circle-icons-customer-satisfaction-0e80dc7e4d4f433d80dfaa99052993d9b32fffe951bd3b0bfbcb4628c4becba3.png" alt="Circle icons customer satisfaction">
+            <p>97% customer satisfaction</p>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <img class="image-responsive" src="https://d1dnjl0bsr27en.cloudfront.net/assets/welcome/circle-icons-messaging-aa8b110346c1456e168d0ca503df4cd2adab01b72f25afeec3bc52a07b063803.png" alt="Circle icons messaging">
+            <p>Discuss with designers</p>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <img class="image-responsive" src="https://d1dnjl0bsr27en.cloudfront.net/assets/welcome/circle-icons-3xpayments-977e04b53d8b0e83ea595fa0f40813dc4946f373df4140c57bf622ab3ab0bec8.png" alt="Circle icons 3xpayments">
+            <p>Payments in 3 times</p>
+          </div>
+          <div class="col-sm-3 col-xs-6">
+            <img class="image-responsive" src="https://d1dnjl0bsr27en.cloudfront.net/assets/welcome/circle-icons-secure-payment-becc935ba552b0e965bba841ff0c49c857e0a4df692c9dbcab8de117297a915e.png" alt="Circle icons secure payment">
+            <p>Secured transactions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+          <form id="regional-settings-form" data-en-url="/en" data-fr-url="/" ></form>
+            <div class="modal-body">
+
+                
+              <div class="text-center">
+                <p class="strong rsf-title">
+                  Hi, VaniCeci is available in 2 languages and 3 currencies. 
+                </p>
+                <br class="hidden-xs">
+                <p>
+                  Click a flag
+                </p>
+                <div>
+                  <a style="margin-right: 20px;" rel="nofollow" data-method="post" href="/set_regionals?country=US&amp;currency=USD&amp;locale=en">
+                    <img style="vertical-align: baseline;" src="https://d1dnjl0bsr27en.cloudfront.net/assets/flags/rounded/us-24-cf3994f73ed06227b35bf14e3b5fdae3b88f570223e42a38a4f690069359f43b.png" alt="Us 24">
+    </a>              <a style="margin-right: 20px;" rel="nofollow" data-method="post" href="/set_regionals?country=FR&amp;currency=EUR&amp;locale=fr">
+                    <img style="vertical-align: baseline;" src="https://d1dnjl0bsr27en.cloudfront.net/assets/flags/rounded/fr-24-f45555b0fcd7613e42f762c09732431d1b37d8c5795d33063b37b7f5de5cf1cb.png" alt="Fr 24">
+    </a>              <a style="margin-right: 20px;" rel="nofollow" data-method="post" href="/set_regionals?country=FR&amp;currency=EUR&amp;locale=en">
+                    <img style="vertical-align: baseline;" src="https://d1dnjl0bsr27en.cloudfront.net/assets/flags/rounded/eu-24-4d96e704796f70e694f9310f90362122c221f7f54fde097b45a0a152d27f0c4b.png" alt="Eu 24">
+    </a>              <a rel="nofollow" data-method="post" href="/set_regionals?country=GB&amp;currency=GBP&amp;locale=en">
+                    <img style="vertical-align: baseline;" src="https://d1dnjl0bsr27en.cloudfront.net/assets/flags/rounded/gb-24-479c352491ce3d53584eb7f064024f400a4aa181c1744cd8d1dcdeee03a493b8.png" alt="Gb 24">
+    </a>            </div>
+              </div>
+    
+              <br class="hidden-xs">
+              <div class="hr-text"><span>or</span></div>
+    
+              <div class="form-group">
+                <label for="Language">Language</label>
+                <select name="language" id="language" class="selectpicker" data-style="btn-default btn-block" style="display: none;"><option value="fr">French - Français</option>
+    <option selected="selected" value="en">English - Anglais</option></select><div class="btn-group select"><button class="btn dropdown-toggle clearfix btn-default btn-block" data-toggle="dropdown" id="language"><span class="filter-option">English - Anglais</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow"></span><ul class="dropdown-menu" role="menu" style="max-height: 300px; overflow-y: auto; min-height: 0px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="">French - Français</span></a></li><li rel="1" class="selected"><a tabindex="-1" href="#" class=""><span class="">English - Anglais</span></a></li></ul></div>
+              </div>
+    
+              <div class="form-group">
+                <label for="Currency">Currency</label>
+                <select name="currency" id="currency" class="selectpicker" data-style="btn-default btn-block" style="display: none;"><option value="EUR">€ Euro - EUR</option>
+    <option selected="selected" value="GBP">£ Pound - GBP</option>
+    <option value="USD">$ US Dollar - USD</option></select><div class="btn-group select"><button class="btn dropdown-toggle clearfix btn-default btn-block" data-toggle="dropdown" id="currency"><span class="filter-option">£ Pound - GBP</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow"></span><ul class="dropdown-menu" role="menu" style="max-height: 300px; overflow-y: auto; min-height: 0px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="">€ Euro - EUR</span></a></li><li rel="1" class="selected"><a tabindex="-1" href="#" class=""><span class="">£ Pound - GBP</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="">$ US Dollar - USD</span></a></li></ul></div>
+              </div>
+    
+              <div class="form-group">
+                <label for="user_country">Country</label>
+                <select name="country" id="user_country" class="form-control" style="width: 100%;"><option value="">Country</option><option data-locale="fr" data-currency="EUR" value="FR">France</option>
+    <option data-locale="fr" data-currency="EUR" value="GP">Guadeloupe</option>
+    <option data-locale="fr" data-currency="EUR" value="MQ">Martinique</option>
+    <option data-locale="en" data-currency="USD" value="US">United States</option>
+    <option disabled="disabled" value="">---------------</option>
+    <option data-locale="fr" data-currency="EUR" value="AF">Afghanistan</option>
+    <option data-locale="fr" data-currency="EUR" value="AX">Åland Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="AL">Albania</option>
+    <option data-locale="fr" data-currency="EUR" value="DZ">Algeria</option>
+    <option data-locale="en" data-currency="USD" value="AS">American Samoa</option>
+    <option data-locale="fr" data-currency="EUR" value="AD">Andorra</option>
+    <option data-locale="fr" data-currency="EUR" value="AO">Angola</option>
+    <option data-locale="en" data-currency="EUR" value="AI">Anguilla</option>
+    <option data-locale="fr" data-currency="USD" value="AQ">Antarctica</option>
+    <option data-locale="en" data-currency="EUR" value="AG">Antigua and Barbuda</option>
+    <option data-locale="fr" data-currency="EUR" value="AR">Argentina</option>
+    <option data-locale="fr" data-currency="EUR" value="AM">Armenia</option>
+    <option data-locale="fr" data-currency="EUR" value="AW">Aruba</option>
+    <option data-locale="en" data-currency="EUR" value="AU">Australia</option>
+    <option data-locale="fr" data-currency="EUR" value="AT">Austria</option>
+    <option data-locale="fr" data-currency="EUR" value="AZ">Azerbaijan</option>
+    <option data-locale="en" data-currency="EUR" value="BS">Bahamas</option>
+    <option data-locale="fr" data-currency="EUR" value="BH">Bahrain</option>
+    <option data-locale="fr" data-currency="EUR" value="BD">Bangladesh</option>
+    <option data-locale="en" data-currency="EUR" value="BB">Barbados</option>
+    <option data-locale="fr" data-currency="EUR" value="BY">Belarus</option>
+    <option data-locale="fr" data-currency="EUR" value="BE">Belgium</option>
+    <option data-locale="en" data-currency="EUR" value="BZ">Belize</option>
+    <option data-locale="fr" data-currency="EUR" value="BJ">Benin</option>
+    <option data-locale="en" data-currency="EUR" value="BM">Bermuda</option>
+    <option data-locale="fr" data-currency="EUR" value="BT">Bhutan</option>
+    <option data-locale="fr" data-currency="EUR" value="BO">Bolivia, Plurinational State of</option>
+    <option data-locale="en" data-currency="USD" value="BQ">Bonaire, Sint Eustatius and Saba</option>
+    <option data-locale="fr" data-currency="EUR" value="BA">Bosnia and Herzegovina</option>
+    <option data-locale="en" data-currency="EUR" value="BW">Botswana</option>
+    <option data-locale="fr" data-currency="EUR" value="BV">Bouvet Island</option>
+    <option data-locale="fr" data-currency="EUR" value="BR">Brazil</option>
+    <option data-locale="en" data-currency="USD" value="IO">British Indian Ocean Territory</option>
+    <option data-locale="fr" data-currency="EUR" value="BN">Brunei Darussalam</option>
+    <option data-locale="fr" data-currency="EUR" value="BG">Bulgaria</option>
+    <option data-locale="fr" data-currency="EUR" value="BF">Burkina Faso</option>
+    <option data-locale="fr" data-currency="EUR" value="BI">Burundi</option>
+    <option data-locale="fr" data-currency="EUR" value="KH">Cambodia</option>
+    <option data-locale="en" data-currency="EUR" value="CM">Cameroon</option>
+    <option data-locale="en" data-currency="EUR" value="CA">Canada</option>
+    <option data-locale="fr" data-currency="EUR" value="CV">Cape Verde</option>
+    <option data-locale="en" data-currency="EUR" value="KY">Cayman Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="CF">Central African Republic</option>
+    <option data-locale="fr" data-currency="EUR" value="TD">Chad</option>
+    <option data-locale="fr" data-currency="EUR" value="CL">Chile</option>
+    <option data-locale="fr" data-currency="EUR" value="CN">China</option>
+    <option data-locale="en" data-currency="EUR" value="CX">Christmas Island</option>
+    <option data-locale="en" data-currency="EUR" value="CC">Cocos (Keeling) Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="CO">Colombia</option>
+    <option data-locale="fr" data-currency="EUR" value="KM">Comoros</option>
+    <option data-locale="fr" data-currency="EUR" value="CG">Congo</option>
+    <option data-locale="fr" data-currency="EUR" value="CD">Congo, The Democratic Republic of the</option>
+    <option data-locale="en" data-currency="EUR" value="CK">Cook Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="CR">Costa Rica</option>
+    <option data-locale="fr" data-currency="EUR" value="CI">Côte d'Ivoire</option>
+    <option data-locale="fr" data-currency="EUR" value="HR">Croatia</option>
+    <option data-locale="fr" data-currency="EUR" value="CU">Cuba</option>
+    <option data-locale="fr" data-currency="EUR" value="CW">Curaçao</option>
+    <option data-locale="fr" data-currency="EUR" value="CY">Cyprus</option>
+    <option data-locale="fr" data-currency="EUR" value="CZ">Czech Republic</option>
+    <option data-locale="fr" data-currency="EUR" value="DK">Denmark</option>
+    <option data-locale="fr" data-currency="EUR" value="DJ">Djibouti</option>
+    <option data-locale="en" data-currency="EUR" value="DM">Dominica</option>
+    <option data-locale="fr" data-currency="EUR" value="DO">Dominican Republic</option>
+    <option data-locale="fr" data-currency="USD" value="EC">Ecuador</option>
+    <option data-locale="fr" data-currency="EUR" value="EG">Egypt</option>
+    <option data-locale="fr" data-currency="USD" value="SV">El Salvador</option>
+    <option data-locale="fr" data-currency="EUR" value="GQ">Equatorial Guinea</option>
+    <option data-locale="en" data-currency="EUR" value="ER">Eritrea</option>
+    <option data-locale="fr" data-currency="EUR" value="EE">Estonia</option>
+    <option data-locale="fr" data-currency="EUR" value="ET">Ethiopia</option>
+    <option data-locale="en" data-currency="EUR" value="FK">Falkland Islands (Malvinas)</option>
+    <option data-locale="fr" data-currency="EUR" value="FO">Faroe Islands</option>
+    <option data-locale="en" data-currency="USD" value="FJ">Fiji</option>
+    <option data-locale="fr" data-currency="EUR" value="FI">Finland</option>
+    <option data-locale="fr" data-currency="EUR" value="FR">France</option>
+    <option data-locale="fr" data-currency="EUR" value="GF">French Guiana</option>
+    <option data-locale="fr" data-currency="EUR" value="PF">French Polynesia</option>
+    <option data-locale="fr" data-currency="EUR" value="TF">French Southern Territories</option>
+    <option data-locale="fr" data-currency="EUR" value="GA">Gabon</option>
+    <option data-locale="en" data-currency="EUR" value="GM">Gambia</option>
+    <option data-locale="fr" data-currency="EUR" value="GE">Georgia</option>
+    <option data-locale="fr" data-currency="EUR" value="DE">Germany</option>
+    <option data-locale="en" data-currency="EUR" value="GH">Ghana</option>
+    <option data-locale="en" data-currency="EUR" value="GI">Gibraltar</option>
+    <option data-locale="fr" data-currency="EUR" value="GR">Greece</option>
+    <option data-locale="fr" data-currency="EUR" value="GL">Greenland</option>
+    <option data-locale="en" data-currency="EUR" value="GD">Grenada</option>
+    <option data-locale="fr" data-currency="EUR" value="GP">Guadeloupe</option>
+    <option data-locale="en" data-currency="USD" value="GU">Guam</option>
+    <option data-locale="fr" data-currency="EUR" value="GT">Guatemala</option>
+    <option data-locale="en" data-currency="GBP" value="GG">Guernsey</option>
+    <option data-locale="fr" data-currency="EUR" value="GN">Guinea</option>
+    <option data-locale="fr" data-currency="EUR" value="GW">Guinea-Bissau</option>
+    <option data-locale="en" data-currency="EUR" value="GY">Guyana</option>
+    <option data-locale="fr" data-currency="USD" value="HT">Haiti</option>
+    <option data-locale="en" data-currency="EUR" value="HM">Heard Island and McDonald Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="VA">Holy See (Vatican City State)</option>
+    <option data-locale="fr" data-currency="EUR" value="HN">Honduras</option>
+    <option data-locale="en" data-currency="EUR" value="HK">Hong Kong</option>
+    <option data-locale="fr" data-currency="EUR" value="HU">Hungary</option>
+    <option data-locale="fr" data-currency="EUR" value="IS">Iceland</option>
+    <option data-locale="en" data-currency="EUR" value="IN">India</option>
+    <option data-locale="fr" data-currency="EUR" value="ID">Indonesia</option>
+    <option data-locale="fr" data-currency="EUR" value="IR">Iran, Islamic Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="IQ">Iraq</option>
+    <option data-locale="en" data-currency="EUR" value="IE">Ireland</option>
+    <option data-locale="en" data-currency="EUR" value="IM">Isle of Man</option>
+    <option data-locale="fr" data-currency="EUR" value="IL">Israel</option>
+    <option data-locale="fr" data-currency="EUR" value="IT">Italy</option>
+    <option data-locale="en" data-currency="EUR" value="JM">Jamaica</option>
+    <option data-locale="fr" data-currency="EUR" value="JP">Japan</option>
+    <option data-locale="en" data-currency="EUR" value="JE">Jersey</option>
+    <option data-locale="fr" data-currency="EUR" value="JO">Jordan</option>
+    <option data-locale="fr" data-currency="EUR" value="KZ">Kazakhstan</option>
+    <option data-locale="en" data-currency="EUR" value="KE">Kenya</option>
+    <option data-locale="en" data-currency="EUR" value="KI">Kiribati</option>
+    <option data-locale="fr" data-currency="EUR" value="KP">Korea, Democratic People's Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="KR">Korea, Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="KW">Kuwait</option>
+    <option data-locale="fr" data-currency="EUR" value="KG">Kyrgyzstan</option>
+    <option data-locale="fr" data-currency="EUR" value="LA">Lao People's Democratic Republic</option>
+    <option data-locale="fr" data-currency="EUR" value="LV">Latvia</option>
+    <option data-locale="fr" data-currency="EUR" value="LB">Lebanon</option>
+    <option data-locale="en" data-currency="EUR" value="LS">Lesotho</option>
+    <option data-locale="en" data-currency="EUR" value="LR">Liberia</option>
+    <option data-locale="fr" data-currency="EUR" value="LY">Libya</option>
+    <option data-locale="fr" data-currency="EUR" value="LI">Liechtenstein</option>
+    <option data-locale="fr" data-currency="EUR" value="LT">Lithuania</option>
+    <option data-locale="fr" data-currency="EUR" value="LU">Luxembourg</option>
+    <option data-locale="fr" data-currency="EUR" value="MO">Macao</option>
+    <option data-locale="fr" data-currency="EUR" value="MK">Macedonia, Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="MG">Madagascar</option>
+    <option data-locale="en" data-currency="EUR" value="MW">Malawi</option>
+    <option data-locale="en" data-currency="EUR" value="MY">Malaysia</option>
+    <option data-locale="fr" data-currency="EUR" value="MV">Maldives</option>
+    <option data-locale="fr" data-currency="EUR" value="ML">Mali</option>
+    <option data-locale="en" data-currency="EUR" value="MT">Malta</option>
+    <option data-locale="en" data-currency="USD" value="MH">Marshall Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="MQ">Martinique</option>
+    <option data-locale="fr" data-currency="EUR" value="MR">Mauritania</option>
+    <option data-locale="en" data-currency="EUR" value="MU">Mauritius</option>
+    <option data-locale="fr" data-currency="EUR" value="YT">Mayotte</option>
+    <option data-locale="fr" data-currency="EUR" value="MX">Mexico</option>
+    <option data-locale="en" data-currency="USD" value="FM">Micronesia, Federated States of</option>
+    <option data-locale="fr" data-currency="EUR" value="MD">Moldova, Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="MC">Monaco</option>
+    <option data-locale="fr" data-currency="EUR" value="MN">Mongolia</option>
+    <option data-locale="fr" data-currency="EUR" value="ME">Montenegro</option>
+    <option data-locale="en" data-currency="EUR" value="MS">Montserrat</option>
+    <option data-locale="fr" data-currency="EUR" value="MA">Morocco</option>
+    <option data-locale="fr" data-currency="EUR" value="MZ">Mozambique</option>
+    <option data-locale="fr" data-currency="EUR" value="MM">Myanmar</option>
+    <option data-locale="en" data-currency="EUR" value="NA">Namibia</option>
+    <option data-locale="en" data-currency="EUR" value="NR">Nauru</option>
+    <option data-locale="fr" data-currency="EUR" value="NP">Nepal</option>
+    <option data-locale="fr" data-currency="EUR" value="NL">Netherlands</option>
+    <option data-locale="en" data-currency="EUR" value="AN">Netherlands Antilles</option>
+    <option data-locale="fr" data-currency="EUR" value="NC">New Caledonia</option>
+    <option data-locale="en" data-currency="EUR" value="NZ">New Zealand</option>
+    <option data-locale="fr" data-currency="EUR" value="NI">Nicaragua</option>
+    <option data-locale="fr" data-currency="EUR" value="NE">Niger</option>
+    <option data-locale="en" data-currency="EUR" value="NG">Nigeria</option>
+    <option data-locale="en" data-currency="EUR" value="NU">Niue</option>
+    <option data-locale="en" data-currency="EUR" value="NF">Norfolk Island</option>
+    <option data-locale="en" data-currency="USD" value="MP">Northern Mariana Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="NO">Norway</option>
+    <option data-locale="fr" data-currency="EUR" value="OM">Oman</option>
+    <option data-locale="en" data-currency="EUR" value="PK">Pakistan</option>
+    <option data-locale="en" data-currency="USD" value="PW">Palau</option>
+    <option data-locale="en" data-currency="EUR" value="PS">Palestine, State of</option>
+    <option data-locale="fr" data-currency="EUR" value="PA">Panama</option>
+    <option data-locale="en" data-currency="EUR" value="PG">Papua New Guinea</option>
+    <option data-locale="fr" data-currency="EUR" value="PY">Paraguay</option>
+    <option data-locale="fr" data-currency="EUR" value="PE">Peru</option>
+    <option data-locale="en" data-currency="EUR" value="PH">Philippines</option>
+    <option data-locale="en" data-currency="EUR" value="PN">Pitcairn</option>
+    <option data-locale="fr" data-currency="EUR" value="PL">Poland</option>
+    <option data-locale="fr" data-currency="EUR" value="PT">Portugal</option>
+    <option data-locale="en" data-currency="USD" value="PR">Puerto Rico</option>
+    <option data-locale="fr" data-currency="EUR" value="QA">Qatar</option>
+    <option data-locale="fr" data-currency="EUR" value="RE">Réunion</option>
+    <option data-locale="fr" data-currency="EUR" value="RO">Romania</option>
+    <option data-locale="fr" data-currency="EUR" value="RU">Russian Federation</option>
+    <option data-locale="en" data-currency="EUR" value="RW">Rwanda</option>
+    <option data-locale="fr" data-currency="EUR" value="BL">Saint Barthélemy</option>
+    <option data-locale="en" data-currency="EUR" value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+    <option data-locale="en" data-currency="EUR" value="KN">Saint Kitts and Nevis</option>
+    <option data-locale="en" data-currency="EUR" value="LC">Saint Lucia</option>
+    <option data-locale="en" data-currency="EUR" value="MF">Saint Martin (French part)</option>
+    <option data-locale="fr" data-currency="EUR" value="PM">Saint Pierre and Miquelon</option>
+    <option data-locale="en" data-currency="EUR" value="VC">Saint Vincent and the Grenadines</option>
+    <option data-locale="en" data-currency="USD" value="WS">Samoa</option>
+    <option data-locale="fr" data-currency="EUR" value="SM">San Marino</option>
+    <option data-locale="fr" data-currency="EUR" value="ST">Sao Tome and Principe</option>
+    <option data-locale="fr" data-currency="EUR" value="SA">Saudi Arabia</option>
+    <option data-locale="fr" data-currency="EUR" value="SN">Senegal</option>
+    <option data-locale="fr" data-currency="EUR" value="RS">Serbia</option>
+    <option data-locale="en" data-currency="EUR" value="SC">Seychelles</option>
+    <option data-locale="en" data-currency="EUR" value="SL">Sierra Leone</option>
+    <option data-locale="en" data-currency="EUR" value="SG">Singapore</option>
+    <option data-locale="en" data-currency="EUR" value="SX">Sint Maarten (Dutch part)</option>
+    <option data-locale="fr" data-currency="EUR" value="SK">Slovakia</option>
+    <option data-locale="fr" data-currency="EUR" value="SI">Slovenia</option>
+    <option data-locale="en" data-currency="EUR" value="SB">Solomon Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="SO">Somalia</option>
+    <option data-locale="en" data-currency="EUR" value="ZA">South Africa</option>
+    <option data-locale="en" data-currency="GBP" value="GS">South Georgia and the South Sandwich Islands</option>
+    <option data-locale="en" data-currency="EUR" value="SS">South Sudan</option>
+    <option data-locale="fr" data-currency="EUR" value="ES">Spain</option>
+    <option data-locale="fr" data-currency="EUR" value="LK">Sri Lanka</option>
+    <option data-locale="en" data-currency="EUR" value="SD">Sudan</option>
+    <option data-locale="fr" data-currency="EUR" value="SR">Suriname</option>
+    <option data-locale="fr" data-currency="EUR" value="SJ">Svalbard and Jan Mayen</option>
+    <option data-locale="en" data-currency="EUR" value="SZ">Swaziland</option>
+    <option data-locale="fr" data-currency="EUR" value="SE">Sweden</option>
+    <option data-locale="fr" data-currency="EUR" value="CH">Switzerland</option>
+    <option data-locale="fr" data-currency="EUR" value="SY">Syrian Arab Republic</option>
+    <option data-locale="fr" data-currency="EUR" value="TW">Taiwan</option>
+    <option data-locale="fr" data-currency="EUR" value="TJ">Tajikistan</option>
+    <option data-locale="en" data-currency="EUR" value="TZ">Tanzania, United Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="TH">Thailand</option>
+    <option data-locale="fr" data-currency="EUR" value="TL">Timor-Leste</option>
+    <option data-locale="fr" data-currency="EUR" value="TG">Togo</option>
+    <option data-locale="en" data-currency="EUR" value="TK">Tokelau</option>
+    <option data-locale="en" data-currency="EUR" value="TO">Tonga</option>
+    <option data-locale="en" data-currency="EUR" value="TT">Trinidad and Tobago</option>
+    <option data-locale="fr" data-currency="EUR" value="TN">Tunisia</option>
+    <option data-locale="fr" data-currency="EUR" value="TR">Turkey</option>
+    <option data-locale="fr" data-currency="EUR" value="TM">Turkmenistan</option>
+    <option data-locale="en" data-currency="USD" value="TC">Turks and Caicos Islands</option>
+    <option data-locale="en" data-currency="EUR" value="TV">Tuvalu</option>
+    <option data-locale="en" data-currency="EUR" value="UG">Uganda</option>
+    <option data-locale="fr" data-currency="EUR" value="UA">Ukraine</option>
+    <option data-locale="fr" data-currency="EUR" value="AE">United Arab Emirates</option>
+    <option data-locale="en" data-currency="GBP" selected="selected" value="GB">United Kingdom</option>
+    <option data-locale="en" data-currency="USD" value="US">United States</option>
+    <option data-locale="en" data-currency="USD" value="UM">United States Minor Outlying Islands</option>
+    <option data-locale="fr" data-currency="EUR" value="UY">Uruguay</option>
+    <option data-locale="fr" data-currency="EUR" value="UZ">Uzbekistan</option>
+    <option data-locale="en" data-currency="EUR" value="VU">Vanuatu</option>
+    <option data-locale="fr" data-currency="EUR" value="VE">Venezuela, Bolivarian Republic of</option>
+    <option data-locale="fr" data-currency="EUR" value="VN">Viet Nam</option>
+    <option data-locale="en" data-currency="USD" value="VG">Virgin Islands, British</option>
+    <option data-locale="en" data-currency="USD" value="VI">Virgin Islands, U.S.</option>
+    <option data-locale="fr" data-currency="EUR" value="WF">Wallis and Futuna</option>
+    <option data-locale="fr" data-currency="EUR" value="EH">Western Sahara</option>
+    <option data-locale="fr" data-currency="EUR" value="YE">Yemen</option>
+    <option data-locale="en" data-currency="EUR" value="ZM">Zambia</option>
+    <option data-locale="en" data-currency="EUR" value="ZW">Zimbabwe</option></select>
+              </div>
+            </div>   
+            <div class="modal-footer">
+              <button name="button" type="submit" class="btn btn-afk btn-lg btn-fill btn-block bold">GO</button>
+            </div>
+           
+    </form>    </div>
+      </div>
+    </div>
+    
+    
+
+
+  </body>
+</html>
