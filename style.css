@@ -1,0 +1,114 @@
+head {
+  text-align: center
+  
+font-family:'Lobster', cursive;
+
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.module {
+  background-image: url(./images/people.jpg); background-size: 200px
+}
+body {
+  text-align: center;
+  color:black;
+  background-color: beige;
+  background-image: url(/images/people.jpg);
+}
+div.presentation{
+  font-size: 19px;
+  text-align: justify;
+  border-radius: 5px
+}
+h1, h2{
+
+  font-family: 'Permanent Marker', cursive;
+  color: blue; font-size: 2em
+}
+
+button {
+  min-width: 250px;
+  color: red;
+  background-color: yellowgreen
+}
+div.content{
+  border-top: 1px solid beige;
+  border-bottom:1px solid ;
+  border-radius: 10px;
+  box-shadow: 2px 2 px 3px blue;
+  padding: 5px;
+  font-size:1em;
+  background-color: white;
+background-clip: border-box;
+width: 10cm;
+}
+
+element.style { background-color: white;
+}
+#header .bar {
+    padding: 6px 0;
+    height: 54px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 54px;
+    background-color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+@media (max-width: 767px)
+body {
+    position: relative;
+    font-size: 12px;
+}
+body {
+    color: #000;
+    font-size: 14px;
+}
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #f9f9f9;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    color: -internal-root-color;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
